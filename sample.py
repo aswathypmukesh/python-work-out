@@ -1,4 +1,4 @@
-#string
+# string
 # str1 = "apple"
 # print(len(str1))
 
@@ -147,6 +147,142 @@
 #     print("error")
 
 
-import calc
-print (calc.mul(10,20))
+# import calc
+# print (calc.mul(10,20))
+
+
+# <---------------------------------------------------- assignment -------------------------------------------------------->
+# no:1
+
+c = input("enter number")
+print(c)
+
+# no:2
+
+a = input("enter number")
+b = input("enter number")
+sum = int(a) + int(b)
+print(sum)
+
+# no:3
+
+p = input("enter number")
+r = input("enter number")
+n = input("enter number")
+SI = (int(p)*int(r)*int(n))/100
+print(SI)
+
+# no:4
+
+a = input("enter mark")
+if int(a)<50:
+    print("failed")
+else:
+    print("passed")
+
+# no:5
+
+a = input("enter mark")
+if int(a)>=90:
+    print("A")
+elif int(a)>=80:
+    print("B")
+elif int(a)>=70:
+    print("C")
+elif int(a)>=60:
+    print("D")
+elif int(a)>=50:
+    print("E")
+else:
+    print("failed")
+
+# no:6
+
+a = input("enter number")
+if int(a) == 1:
+    print("Sunday")
+elif int(a) == 2:
+    print("Monday")
+elif int(a) == 3:
+    print("Tuesday")
+elif int(a) == 4:
+    print("Wednesday")
+elif int(a) == 5:
+    print("Thursday")
+elif int(a) == 6:
+    print("Friday")
+elif int(a) == 7:
+    print("Saturday")
+else:
+    print("Invalid Entry")
+
+# no:7
+
+num = 5
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)
+
+# no:8
+
+a = input("enter a number:")
+sum = 0
+for num in range(1, int(a) + 1):
+    if num % 2 != 0:
+        sum = sum + num
+print(sum)
+
+# no:9
+
+def num(n):
+	num = 1
+	for i in range(0, n):
+		num = 1
+		for j in range(0, i+1):
+			print(num, end=" ")
+			num = num + 1
+		print("\r")
+n = 5
+num(n)
+
+# no:10
+
+a = [1,2,3]
+b = [4,5,6]
+a,b = b,a
+print(a)
+print(b)
+
+# no:11
+
+a = [11,20,34,50,33]
+c = 0  
+for num in a: 
+    if num % 2 == 0:
+        c = c + 1
+        print(num,end=",")
+print("\n")
+print(c)
+
+# no:12
+
+num = [20, 10, 50, 30, 40]
+num.sort(reverse=True)
+print(num)
+
+# no:13
+
+s = input("enter a string")
+if  s == s[::-1]:
+    print("Yes")
+else:
+    print("No")
+
+# no:14
+
+a = [3, 2, 1]
+b = [1, 2, 3]  
+out_arr = int(a) + int(b)  
+print (out_arr)  
+
+# no:15
 
